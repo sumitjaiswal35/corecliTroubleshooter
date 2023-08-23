@@ -4,7 +4,7 @@ import gradio as gr
 import sys
 import os
 
-os.environ["OPENAI_API_KEY"] = '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'
+os.environ["OPENAI_API_KEY"] = '******'
 
 # os.system("corecli core:build");
 

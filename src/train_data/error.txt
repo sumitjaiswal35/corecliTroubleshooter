@@ -1,3 +1,0 @@
-Error in download_and_extract: java.io.IOException: Error downloading
-
-run bootstrap netrc to resolve the issue

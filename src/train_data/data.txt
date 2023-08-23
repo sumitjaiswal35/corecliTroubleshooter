@@ -1,0 +1,4 @@
+{"prompt": "ERROR: Core environment not found", "completion": "Corecli commands must run from the core directory. Try running the command again after switching to core directory.",
+"prompt": "ERROR: The nexus proxy you are using", "completion": "Try running corecli sfdc:configure-ports",
+"prompt": "one of its dependencies could not be resolved: Failed to read artifact descriptor for", "completion": "Make sure you are connected to vpn or try switching vpn. If that doesn't work, try running corecli sfdc:configure-ports"
+}

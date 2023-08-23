@@ -14,7 +14,7 @@ def chatbot(input_text):
     return response.response
 
 # read error from output.log file
-file1 = open(r"/Users/s.jaiswal/Desktop/demo/error.log", "r+")
+file1 = open(r"/./demo/error.log", "r+")
 r = file1.readline()
 
 #query openapi and get the suggestion for error

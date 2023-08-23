@@ -4,7 +4,7 @@ import gradio as gr
 import sys
 import os
 
-os.environ["OPENAI_API_KEY"] = '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'
+os.environ["OPENAI_API_KEY"] = '****'
 
 def construct_index(directory_path):
     max_input_size = 4096
@@ -34,5 +34,5 @@ iface = gr.Interface(fn=chatbot,
                      outputs="text",
                      title="My AI Chatbot")
 
-index = construct_index("/Users/s.jaiswal/Desktop/demo/train_data")
+index = construct_index("./demo/train_data")
 iface.launch(share=True)
